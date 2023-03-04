@@ -1,0 +1,93 @@
+.pianoPic{
+  top: -150px;
+    transform: rotate(15deg);
+    width: 700px;
+    position: absolute;
+    right: 60%;
+  
+}
+
+.pianoDescrip{
+  color:white;
+  width: 60%;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 27px;
+  text-align:right;
+  margin-bottom: 40px;
+  margin-left:500px;
+  animation: fade-up 1000ms ease;
+}
+
+.pianoHeader1{
+   font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+  color: white;
+  text-align:right;
+  margin-right:100px;
+  animation: fade-up 1000ms ease;
+}
+
+.flowkey, .skoove, .chordify, .steinwaySons, .Ultimate-Guitar-com, .littleMissionStu, .musicCity {
+  display: flex;
+  justify-content: space-around;
+}
+
+img {
+  width: 200px;
+}
+
+.inperson, .online-self-taught {
+  width: 40%;
+  border: solid 10px #8aa4f5;
+background: #FFFFFF;
+  box-shadow: 0px 2px 0px rgba(138, 164, 245, 0.61);
+border-radius: 34px;
+color: #868afe;
+
+  
+}
+
+.pianoResources {
+  display: flex;
+  justify-content: space-around;
+  animation: fade-up 1000ms ease;
+}
+.column2, .column1 {
+  padding: 20px;
+}
+
+body {
+    text-align: center;
+  font-family: 'Montserrat';
+  background: rgb(111,115,210);
+background: linear-gradient(105.67deg, #83C9F4 45%, #6F73D2 83.59%);
+}
+
+p, a{
+  font-size: 18px;
+  color: #868afe;
+  transition: 0.5s;
+}
+
+h2{
+font-size: 30px;
+}
+
+a {
+  font-size: 20px;
+}
+
+a:hover {
+  font-size: 23px;
+  color: #e2619f;
+}
+@keyframes fade-up{
+    0%{transform:translateY(50px); opacity:0;}
+    15%{opacity:0;}
+    100%{}
+}

@@ -1,5 +1,5 @@
-console.log('hi');
+let button = document.querySelector(".start");
 
-hello!
-  
-  hola!
+button.onclick = function() {
+      window.location="quiz.html";
+}

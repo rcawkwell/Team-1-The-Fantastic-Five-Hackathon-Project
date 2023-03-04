@@ -1,0 +1,162 @@
+.title {
+  position: absolute;
+width: 306px;
+height: 77px;
+left: 50px;
+top: 42px;
+animation: fade-up 1000ms ease;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 72px;
+}
+
+body {
+  text-align: center;
+  justify-content: center;
+
+  color:white;
+  align-items: center;
+  font-family: 'Montserrat';
+    background: rgb(111,115,210);
+background: linear-gradient(34deg, rgba(111,115,210,1) 0%, rgba(163,213,255,1) 100%);
+}
+
+h1{
+
+}
+@keyframes fade-up{
+    0%{transform:translateY(50px); opacity:0;}
+    15%{opacity:0;}
+    100%{}
+}
+.quiz{
+  margin-top: 200px;
+    padding-bottom:380px;
+  max-height: 100%;
+  animation: fade-up 1000ms ease;
+}
+button{
+  padding: 5px 10px 5px 10px;
+margin-top:10px;
+font-size: 1.5em;
+border: solid 3px #8aa4f5;
+background: #FFFFFF;
+  box-shadow: 0px 2px 0px rgba(138, 164, 245, 0.61);
+border-radius: 34px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+width: fit-content;
+color: #868afe;
+transition: background, color, border, color 500ms ease-out;
+}
+button:hover{
+  background: linear-gradient(105.67deg, #83C9F4 45%, #6F73D2 83.59%);
+  color:white;
+
+}
+button:active{
+  background: #FFFFFF;
+  color: #6F73D2;
+  transform: translateY(5px);
+
+}
+.button:hover{
+  background: linear-gradient(105.67deg, #83C9F4 45%, #6F73D2 83.59%);
+  color:white;
+
+}
+.button:active{
+  background: #FFFFFF;
+  color: #6F73D2;
+  transform: translateY(5px);
+
+}
+.time:hover{
+  background: linear-gradient(105.67deg, #83C9F4 45%, #6F73D2 83.59%);
+  color:white;
+
+}
+.time:active{
+  background: #FFFFFF;
+  color: #6F73D2;
+  transform: translateY(5px);
+
+
+.experience, .goals, .practice, .genre, .music {
+  margin-top: 150px;   
+}
+
+.time {
+  height : 150px;
+  width : 150px;
+  border-radius: 100px; 
+    padding: 5px 5px 5px 5px;
+margin-top:10px;
+font-size: 20px;
+border: solid 5px #8aa4f5;
+background: #FFFFFF;
+  box-shadow: 0px 2px 0px rgba(138, 164, 245, 0.61);
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+color: #868afe;
+transition: background, color, border, color 500ms ease-out;
+}
+
+.quizz{
+  color:white;
+}
+
+.vid {
+  width: 100px;
+}
+.title{
+  position: absolute;
+width: 306px;
+height: 77px;
+left: 50px;
+top: 42px;
+animation: fade-up 1000ms ease;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 72px;
+button{
+  padding: 5px 10px 5px 10px;
+margin-top:10px;
+font-size: 1.5em;
+border: solid 3px #8aa4f5;
+background: #FFFFFF;
+  box-shadow: 0px 2px 0px rgba(138, 164, 245, 0.61);
+border-radius: 34px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+width:200px;
+color: #868afe;
+transition: background, color, border, color 500ms ease-out;
+}
+
+.experience {
+  display: block;
+}
+
+.goals {
+  display: none !important;
+}
+
+.practice {
+  display: none;
+}
+
+.genre {
+ display: none;
+}
+
+.music {
+  display: none;
+;

@@ -1,3 +1,123 @@
-h1 {
-  color: red;
+body{
+overflow:hidden  ;
+}
+@keyframes fade-up{
+    0%{transform:translateY(50px); opacity:0;}
+    15%{opacity:0;}
+    100%{}
+}
+.title{
+  position: absolute;
+width: 306px;
+height: 77px;
+left: 50px;
+top: 42px;
+animation: fade-up 1000ms ease;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 72px;
+
+background: linear-gradient(242.35deg, #83C9F4 37.65%, #6F73D2 103.91%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+
+.header{
+  position: absolute;
+width: 502px;
+height: 54px;
+left: 82px;
+top: 201px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+
+color: #6F73D2;
+animation: fade-up 1000ms ease;
+}
+
+.description{
+  position: absolute;
+width: 526px;
+height: 280px;
+left: 82px;
+top: 255px;
+animation: fade-up 1000ms ease;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+background: linear-gradient(251.07deg, #6F73D2 15.57%, #7681B3 96.1%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+.bottom{
+  position: absolute;
+  width: 1131.71px;
+height: 350.4px;
+left: -99px;
+top: 70%;
+  overflow:hidden  ;
+  transform: rotate(-12deg);
+}
+.image{
+
+position: absolute;
+width: 1450px;
+height: 2050px;
+left: 800px;
+top: -19%;
+background-repeat: no-repeat !important;
+transform: rotate(-9.91deg);
+  background-size:contain !important;
+
+background: url("https://imgs.search.brave.com/W1P0RYGtK2EfzkOZ258TCD0QHQ-OMXDu8jqicsL_Fjs/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9pbWFn/ZXM2LmFscGhhY29k/ZXJzLmNvbS80Mjgv/NDI4NTgzLmpwZw");
+
+z-index: 2;
+}
+.start{
+  z-index: 10;
+  box-sizing: border-box;
+animation: fade-up 1000ms ease;
+position: absolute;
+width: 378px;
+height: 94px;
+left: 151px;
+top: 80%;
+border: solid 5px #8aa4f5;
+background: #FFFFFF;
+  box-shadow: 0px 4px 0px rgba(138, 164, 245, 0.61);
+border-radius: 34px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+color: #868afe;
+transition: background, color, border, color 500ms ease-out;
+}
+.start:hover{
+  background: linear-gradient(105.67deg, #83C9F4 45%, #6F73D2 83.59%);
+  color:white;
+
+}
+.start:active{
+  background: #FFFFFF;
+  color: #6F73D2;
+  transform: translateY(5px);
+
+}
+html {
+  scroll-behavior: smooth;
 }
